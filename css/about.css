@@ -1,0 +1,105 @@
+/* COMMON */
+.body__container {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+a {
+    text-decoration: none;
+}
+p {
+    margin-bottom: 30px;
+    line-height: 1.8;
+}
+
+/* FLOAT CLEARFIX */
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.float--left {
+    float: left;
+}
+.float--right {
+    float: right;
+}
+
+
+/* SECTION & INNER */
+.header {
+    position: relative;
+    z-index: 1;
+}
+.header .inner {
+    box-sizing: border-box;
+    position: fixed;
+    display: flex;
+    height: 78px;
+    width: 100%;
+    align-items: center;
+}
+header .menu-group {
+    display: flex;
+    padding-left: 28px;
+}
+header .menu-group li {
+    margin-right: 10px;
+    font-size: 16px;
+}
+header .menu-group li a {
+    color: black;
+}
+header .title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+header .title a {
+    color: black;
+    font-size: 28px;
+    letter-spacing: 6px;
+}
+
+/* SECTION */
+.section {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 300px;
+}
+.summary {
+    width: 100%;
+    background: lightgray;
+    display: flex;
+}
+.image-site {
+    position: fixed;
+    width: 50vw;
+    height: 100vh;
+    box-sizing: border-box;
+}
+.museum {
+    max-width: 100%;
+    height: 100%;
+    background: url("../images/KakaoTalk_20200424_112504930.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-indent: -9999px;
+}
+.text-site {
+    position: absolute;
+    left: 50vw;
+    width: 50vw;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 180px 110px;
+}
+.text__picture {
+    width: 100%;
+    height: 800px;
+    background: url("../images/KakaoTalk_20200424_112505242.jpg");
+    box-sizing: border-box;
+    margin: 100px 0;
+}
