@@ -80,25 +80,24 @@ header .title a {
     height: 500px;
     display: block;
 }
+.img-left {
+    margin-top: 200px;
+}
 .img__container {
     width: 400px;
     height: 100%;
 }
-.image {
+.high-image {
     height: 95%;
     background: url("../images/KakaoTalk_20200424_112505519.jpg");
     background-size: cover;
 }
-.img__container2 {
-    width: 400px;
-    height: 100%;
-}
-.image {
+.low-image {
     height: 95%;
     background: url("../images/KakaoTalk_20200424_112505519.jpg");
     background-size: cover;
 }
-.center {
+.img-center {
     display: flex;
     justify-content: center;
     margin-bottom: 200px;
