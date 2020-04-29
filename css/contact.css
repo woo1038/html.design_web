@@ -15,6 +15,9 @@ p {
     margin-bottom: 30px;
     line-height: 1.8;
 }
+pre {
+    line-height: 2;
+}
 
 /* FLOAT CLEARFIX */
 .clearfix::after{
@@ -30,14 +33,20 @@ p {
 }
 
 
-/* HEADER & INNER */
+/* section */
+.section {
+    width: 100%;
+    position: relative;
+}
+
+
+/* SECTION & INNER */
 .header {
     position: relative;
     z-index: 1;
 }
 .header .inner {
     box-sizing: border-box;
-    position: fixed;
     display: flex;
     height: 78px;
     width: 100%;
@@ -65,44 +74,51 @@ header .title a {
     letter-spacing: 6px;
 }
 
+
 /* SECTION */
-.section {
-    position: absolute;
-    top: 0;
-    width: 100%;
-    height: 300px;
-}
 .summary {
-    width: 100%;
-    display: flex;
-}
-.image-site {
-    position: fixed;
-    width: 50vw;
-    height: 100vh;
+    max-width: 1400px;
+    margin: 200px auto;
     box-sizing: border-box;
-}
-.museum {
-    max-width: 100%;
-    height: 100%;
-    background: url("../images/KakaoTalk_20200424_112504930.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-indent: -9999px;
 }
 .text-site {
-    position: absolute;
-    left: 50vw;
-    width: 50vw;
-    height: 100%;
-    box-sizing: border-box;
-    padding: 180px 110px;
+    display: flex;
+    margin-bottom: 150px;
 }
-.text__picture {
-    width: 100%;
-    height: 800px;
-    background: url("../images/KakaoTalk_20200424_112505242.jpg");
-    box-sizing: border-box;
-    margin: 100px 0;
-    text-indent: -9999px;
+
+.text-left {
+    width: 700px;
+}
+.text-right {
+    width: 700px;
+}
+.high-site {
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.input--text {
+    width: 500px;
+    height: 34px;
+    padding: 10px 10px;
+    margin-right: 20px;
+    border: none;
+    background: none;
+    border-bottom: 2px solid black;
+    font-size: 25px;
+}
+.input--text:focus {
+    border-color: #51a7e8;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, .075), 
+                0 0 5px rgba(81, 167, 232, .5);
+}
+.input--btn {
+    border-radius: 5px;
+    border: none;
+    background: black;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 15px 50px;
+    cursor: pointer;
 }

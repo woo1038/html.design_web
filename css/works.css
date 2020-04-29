@@ -1,6 +1,6 @@
 /* COMMON */
 body {
-    background: lightgray;
+    background: rgb(243, 243, 243);
 }
 .body__container {
     font-family: 'Roboto', sans-serif;
@@ -58,6 +58,9 @@ header .menu-group li {
 }
 header .menu-group li a {
     color: black;
+}
+header .menu-group li a:hover {
+    color: rgb(65, 65, 65);
 }
 header .title {
     position: absolute;

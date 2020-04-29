@@ -1,6 +1,6 @@
 /* COMMON */
 body {
-    background: lightgray;
+    background: rgb(243, 243, 243);
 }
 .body__container {
     font-family: 'Roboto', sans-serif;
@@ -9,6 +9,7 @@ body {
 }
 a {
     text-decoration: none;
+    color: black;
 }
 p {
     margin-bottom: 30px;
@@ -49,8 +50,8 @@ header .menu-group li {
     margin-right: 10px;
     font-size: 16px;
 }
-header .menu-group li a {
-    color: black;
+header .menu-group li a:hover {
+    color: rgb(65, 65, 65);
 }
 header .title {
     position: absolute;
@@ -59,7 +60,6 @@ header .title {
     transform: translate(-50%, -50%);
 }
 header .title a {
-    color: black;
     font-size: 28px;
     letter-spacing: 6px;
 }
@@ -91,11 +91,13 @@ header .title a {
     height: 95%;
     background: url("../images/KakaoTalk_20200424_112505519.jpg");
     background-size: cover;
+    text-indent: -9999px;
 }
 .low-image {
     height: 95%;
     background: url("../images/KakaoTalk_20200424_112505519.jpg");
     background-size: cover;
+    text-indent: -9999px;
 }
 .img-center {
     display: flex;

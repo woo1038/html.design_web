@@ -6,3 +6,5 @@
 4. studio 작성
 5. works 작성
 6. works image slide 작성
+7. contact 작성
+8. 코드 지저분한 내용 정리

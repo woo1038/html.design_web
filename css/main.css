@@ -1,4 +1,7 @@
 /* COMMON */
+body {
+    background: rgb(243, 243, 243);
+}
 .body__container {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
@@ -6,6 +9,7 @@
 }
 a {
     text-decoration: none;
+    color: black;
 }
 p {
     margin-bottom: 30px;
@@ -26,7 +30,7 @@ p {
 }
 
 
-/* SECTION & INNER */
+/* HEADER & INNER */
 .header {
     position: relative;
     z-index: 1;
@@ -47,8 +51,8 @@ header .menu-group li {
     margin-right: 10px;
     font-size: 16px;
 }
-header .menu-group li a {
-    color: black;
+header .menu-group li a:hover {
+    color: rgb(65, 65, 65);
 }
 header .title {
     position: absolute;
@@ -57,7 +61,6 @@ header .title {
     transform: translate(-50%, -50%);
 }
 header .title a {
-    color: black;
     font-size: 28px;
     letter-spacing: 6px;
 }
@@ -71,7 +74,6 @@ header .title a {
 }
 .summary {
     width: 100%;
-    background: lightgray;
     display: flex;
 }
 .image-site {
@@ -102,4 +104,5 @@ header .title a {
     background: url("../images/one.jpg");
     box-sizing: border-box;
     margin: 100px 0;
+    text-indent: -9999px;
 }
