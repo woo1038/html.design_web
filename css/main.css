@@ -67,10 +67,7 @@ header .title a {
 
 /* SECTION */
 .section {
-    position: absolute;
-    top: 0;
     width: 100%;
-    height: 300px;
 }
 .summary {
     width: 100%;

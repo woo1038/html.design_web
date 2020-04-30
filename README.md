@@ -8,3 +8,4 @@
 6. works image slide 작성
 7. contact 작성
 8. 코드 지저분한 내용 정리
+9. 미디어 수정 작업중
