@@ -63,6 +63,13 @@ header .menu-group li {
 header .menu-group li a:hover {
     color: rgb(65, 65, 65);
 }
+.toggle_text {
+    display: none;
+    text-indent: -9999px;
+}
+#toggle-btn {
+    text-indent: -9999px;
+}
 header .title {
     position: absolute;
     top: 50%;

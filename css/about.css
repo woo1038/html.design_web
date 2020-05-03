@@ -37,11 +37,13 @@ p {
 }
 .header .inner {
     box-sizing: border-box;
-    position: fixed;
     display: flex;
     height: 78px;
     width: 100%;
     align-items: center;
+}
+.fixed {
+    position: fixed;
 }
 header .menu-group {
     display: flex;
@@ -53,6 +55,13 @@ header .menu-group li {
 }
 header .menu-group li a:hover {
     color: rgb(65, 65, 65);
+}
+.toggle_text {
+    display: none;
+    text-indent: -9999px;
+}
+#toggle-btn {
+    text-indent: -9999px;
 }
 header .title {
     position: absolute;
@@ -85,7 +94,7 @@ header .title a {
 .museum {
     max-width: 100%;
     height: 100%;
-    background: url("../images/KakaoTalk_20200424_112504930.jpg");
+    background: url("../../images/KakaoTalk_20200424_112504930.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     text-indent: -9999px;
@@ -101,7 +110,7 @@ header .title a {
 .text__picture {
     width: 100%;
     height: 800px;
-    background: url("../images/KakaoTalk_20200424_112505242.jpg");
+    background: url("../../images/KakaoTalk_20200424_112505242.jpg");
     box-sizing: border-box;
     margin: 100px 0;
     text-indent: -9999px;

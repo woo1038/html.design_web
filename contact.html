@@ -32,8 +32,11 @@
     <!-- css -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css"> <!-- reset css -->
     <link rel="stylesheet" href="./css/contact.css">
+    <!-- media size -->
+    <link rel="stylesheet" media="all and (max-width : 1024px)" href="./css/medium/contact_medium.css">
+    <link rel="stylesheet" media="(max-width : 768px)" href="./css/main_small.css">
 
-    <script defer src="./js/image_slide.js"></script>
+    <script defer src="./js/main.js"></script>
 
 </head>
 <body>
@@ -41,16 +44,22 @@
 
 
     <header class="header">
-        <nav class="inner">
-            <ul class="menu-group">
-                <li><a href="about.html">ABOUT</a></li>
-                <li><a href="studio.html">STUDIO</a></li>
-                <li><a href="works.html">WORKS</a></li>
-                <li><a href="contact.html">CONTACT</a></li>
-            </ul>
+        <nav class="inner fixed">
+            <div class="menu_box toggle">
+                <ul class="menu-group toggle">
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="studio.html">STUDIO</a></li>
+                    <li><a href="works.html">WORKS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+                <div class="toggle_text toggle">
+                    <p>Your it to gave life whom as. Favourable dissimilar resolution led for and had.</p>
+                </div>
+            </div>
             <div class="title">
                 <a href="index.html">MODERN</a>
             </div>
+            <div id="toggle-btn">Header Menu Toggle Button</div>
         </nav>
     </header>
 

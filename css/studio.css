@@ -53,6 +53,13 @@ header .menu-group li {
 header .menu-group li a:hover {
     color: rgb(65, 65, 65);
 }
+.toggle_text {
+    display: none;
+    text-indent: -9999px;
+}
+#toggle-btn {
+    text-indent: -9999px;
+}
 header .title {
     position: absolute;
     top: 50%;
@@ -89,13 +96,13 @@ header .title a {
 }
 .high-image {
     height: 95%;
-    background: url("../images/KakaoTalk_20200424_112505519.jpg");
+    background: url("../../images/KakaoTalk_20200424_112505519.jpg");
     background-size: cover;
     text-indent: -9999px;
 }
 .low-image {
     height: 95%;
-    background: url("../images/KakaoTalk_20200424_112505519.jpg");
+    background: url("../../images/KakaoTalk_20200424_112505519.jpg");
     background-size: cover;
     text-indent: -9999px;
 }
