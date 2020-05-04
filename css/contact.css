@@ -90,6 +90,7 @@ header .title a {
 }
 .text-site {
     display: flex;
+    padding: 0 100px;
     margin-bottom: 150px;
 }
 
@@ -98,6 +99,10 @@ header .title a {
 }
 .text-right {
     width: 700px;
+}
+.post-site {
+    width: 100%;
+    padding: 0 100px;
 }
 .high-site {
     font-size: 22px;

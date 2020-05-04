@@ -56,3 +56,30 @@ header .title {
     cursor: pointer;
     text-indent: -9999px;
 }
+
+
+
+
+/* IMAGE SLIDE */
+section .summary{
+    margin-top: 150px;
+}
+.slide_wrap {
+    position: relative;
+    max-width: 1000px;
+    margin: auto;
+    padding-bottom: 30px;
+}
+.slide_box {
+    width: 600px;
+    margin: auto;
+    overflow-x: hidden;
+}
+.slide_content{
+    display: table;
+    float: left;
+    width: 600px;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

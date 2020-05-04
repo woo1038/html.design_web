@@ -30,7 +30,7 @@ p {
 }
 
 
-/* SECTION & INNER */
+/* HEADER & INNER */
 .header {
     position: relative;
     z-index: 1;
@@ -85,6 +85,7 @@ header .title a {
 }
 .image-site {
     height: 500px;
+    padding: 0 80px;
     display: block;
 }
 .img-left {
