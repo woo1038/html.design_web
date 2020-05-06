@@ -94,7 +94,7 @@ header .title a {
 .museum {
     max-width: 100%;
     height: 100%;
-    background: url("../../images/KakaoTalk_20200424_112504930.jpg");
+    background: url("../images/demo_img1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     text-indent: -9999px;
@@ -108,10 +108,17 @@ header .title a {
     padding: 180px 110px;
 }
 .text__picture {
-    width: 100%;
-    height: 800px;
-    background: url("../../images/KakaoTalk_20200424_112505242.jpg");
-    box-sizing: border-box;
-    margin: 100px 0;
-    text-indent: -9999px;
+    position: relative;
+    padding-top: 80%;
+    overflow: hidden;
+    margin: 100px 0px;
+}
+.text__picture img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    max-width: 100%;
+    height: auto;
 }

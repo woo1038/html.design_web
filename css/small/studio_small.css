@@ -1,6 +1,21 @@
 /* SECTION */
-.img-left {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 100px;
+.section {
+    width: 100vw;
+}
+.summary {
+    max-width: 90vw;
+    padding: 0;
+}
+.img-center_small {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.img__container {
+    max-width: 80vw;
+    margin: 0;
+    padding: 0;
+}
+.text-site {
+    padding: 0 50px;
 }

@@ -84,31 +84,31 @@ header .title a {
     padding: 0 200px;
 }
 .image-site {
-    height: 500px;
     padding: 0 80px;
     display: block;
 }
-.img-left {
-    margin-top: 200px;
+.img-center {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
 }
 .img__container {
     width: 400px;
     height: 100%;
+    box-sizing: border-box;
 }
-.high-image {
-    height: 95%;
-    background: url("../../images/KakaoTalk_20200424_112505519.jpg");
-    background-size: cover;
-    text-indent: -9999px;
+.img_ratio {
+    position: relative;
+    padding-top: 120%;
+    overflow: hidden;
 }
-.low-image {
-    height: 95%;
-    background: url("../../images/KakaoTalk_20200424_112505519.jpg");
-    background-size: cover;
-    text-indent: -9999px;
+.img_ratio img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    max-width: 100%;
+    height: auto;
 }
-.img-center {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 200px;
-}
+
