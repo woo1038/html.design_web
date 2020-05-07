@@ -15,9 +15,8 @@ p {
     margin-bottom: 30px;
     line-height: 1.8;
 }
-pre {
-    line-height: 2;
-}
+
+
 
 /* FLOAT CLEARFIX */
 .clearfix::after{
@@ -33,14 +32,8 @@ pre {
 }
 
 
-/* section */
-.section {
-    width: 100%;
-    position: relative;
-}
 
-
-/* SECTION & INNER */
+/* NAV IN HEADER */
 .header {
     position: relative;
     z-index: 1;
@@ -67,9 +60,6 @@ header .menu-group li a:hover {
     display: none;
     text-indent: -9999px;
 }
-#toggle-btn {
-    text-indent: -9999px;
-}
 header .title {
     position: absolute;
     top: 50%;
@@ -80,9 +70,18 @@ header .title a {
     font-size: 28px;
     letter-spacing: 6px;
 }
+#toggle-btn {
+    text-indent: -9999px;
+}
+/* NAV IN HEADER OF END */
 
 
 /* SECTION */
+.section {
+    position: relative;
+}
+
+/* TEXT AND POST SECTION */
 .summary {
     max-width: 1400px;
     margin: 200px auto;
@@ -93,22 +92,22 @@ header .title a {
     padding: 0 100px;
     margin-bottom: 150px;
 }
-
 .text-left {
     width: 700px;
+    margin-right: 50px;
 }
 .text-right {
     width: 700px;
 }
 .post-site {
-    width: 100%;
+    width: 100vw;
     padding: 0 100px;
+    box-sizing: border-box;
 }
 .high-site {
     font-size: 22px;
     font-weight: 300;
 }
-
 .input--text {
     width: 500px;
     height: 34px;
@@ -134,3 +133,4 @@ header .title a {
     padding: 15px 50px;
     cursor: pointer;
 }
+/* TEXT AND POST SECTION OF END */

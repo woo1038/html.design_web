@@ -1,13 +1,6 @@
-/* SECTION */
-.summary {
-    max-width: 1400px;
-    margin: 200px auto;
-    box-sizing: border-box;
-}
+/* TEXT AND POST SECTION */
 .text-site {
     display: block;
-    padding: 0 100px;
-    margin-bottom: 150px;
 }
 .text-left {
     width: 100%;
@@ -15,15 +8,6 @@
 .text-right {
     width: 100%;
 }
-.post-site {
-    width: 100%;
-    padding: 0 100px;
-}
-.high-site {
-    font-size: 22px;
-    font-weight: 300;
-}
-
 .input--text {
     width: 100%;
     margin-bottom: 5px;
@@ -32,3 +16,4 @@
 .input--btn {
     width: 100%;
 }
+/* TEXT AND POST SECTION OF END */

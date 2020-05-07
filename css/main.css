@@ -16,6 +16,8 @@ p {
     line-height: 1.8;
 }
 
+
+
 /* FLOAT CLEARFIX */
 .clearfix::after{
     content: "";
@@ -30,7 +32,8 @@ p {
 }
 
 
-/* HEADER & INNER */
+
+/* NAV IN HEADER */
 .header {
     position: relative;
     z-index: 1;
@@ -60,9 +63,6 @@ header .menu-group li a:hover {
     display: none;
     text-indent: -9999px;
 }
-#toggle-btn {
-    text-indent: -9999px;
-}
 header .title {
     position: absolute;
     top: 50%;
@@ -73,8 +73,14 @@ header .title a {
     font-size: 28px;
     letter-spacing: 6px;
 }
+#toggle-btn {
+    text-indent: -9999px;
+}
+/* NAV IN HEADER OF END */
 
-/* SECTION */
+
+
+/* TEXT AND IMAGE SECTION */
 .section {
     width: 100%;
 }
@@ -120,3 +126,4 @@ header .title a {
     max-width: 100%;
     height: auto;
 }
+/* TEXT AND IMAGE SECTION OF END */

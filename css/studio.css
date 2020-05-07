@@ -16,6 +16,8 @@ p {
     line-height: 1.8;
 }
 
+
+
 /* FLOAT CLEARFIX */
 .clearfix::after{
     content: "";
@@ -30,7 +32,8 @@ p {
 }
 
 
-/* HEADER & INNER */
+
+/* NAV IN HEADER */
 .header {
     position: relative;
     z-index: 1;
@@ -57,9 +60,6 @@ header .menu-group li a:hover {
     display: none;
     text-indent: -9999px;
 }
-#toggle-btn {
-    text-indent: -9999px;
-}
 header .title {
     position: absolute;
     top: 50%;
@@ -70,12 +70,20 @@ header .title a {
     font-size: 28px;
     letter-spacing: 6px;
 }
+#toggle-btn {
+    text-indent: -9999px;
+}
+/* NAV IN HEADER OF END */
 
-/* SECTION */
+
+
+/* TEXT AND IMAGE SECTION */
 .section {
-    width: 100%;
+    position: relative;
+    width: 100vw;
 }
 .summary {
+    position: relative;
     max-width: 1150px;
     margin: 80px auto;
     box-sizing: border-box;
@@ -87,15 +95,15 @@ header .title a {
     padding: 0 80px;
     display: block;
 }
-.img-center {
-    position: relative;
-    left: 50%;
-    transform: translate(-50%, 0);
-}
 .img__container {
     width: 400px;
     height: 100%;
     box-sizing: border-box;
+}
+.img-center {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
 }
 .img_ratio {
     position: relative;
@@ -111,4 +119,4 @@ header .title a {
     max-width: 100%;
     height: auto;
 }
-
+/* TEXT AND IMAGE SECTION OF END */

@@ -16,6 +16,8 @@ p {
     line-height: 1.8;
 }
 
+
+
 /* FLOAT CLEARFIX */
 .clearfix::after{
     content: "";
@@ -30,14 +32,8 @@ p {
 }
 
 
-/* section */
-.section {
-    width: 100%;
-    position: relative;
-}
 
-
-/* SECTION & INNER */
+/* NAV IN HEADER */
 .header {
     position: relative;
     z-index: 1;
@@ -64,9 +60,6 @@ header .menu-group li a:hover {
     display: none;
     text-indent: -9999px;
 }
-#toggle-btn {
-    text-indent: -9999px;
-}
 header .title {
     position: absolute;
     top: 50%;
@@ -77,9 +70,20 @@ header .title a {
     font-size: 28px;
     letter-spacing: 6px;
 }
+#toggle-btn {
+    text-indent: -9999px;
+}
+/* NAV IN HEADER OF END */
+
 
 
 /* SECTION */
+.section {
+    width: 100%;
+    position: relative;
+}
+
+/* TEXT SECTION */
 .summary {
     max-width: 1150px;
     margin: 80px auto;
@@ -88,11 +92,12 @@ header .title a {
 .text-site {
     padding: 0 200px;
 }
+/* TEXT SECTION OF END */
 
 
 
 
-/* IMAGE SLIDE */
+/* IMAGE SLIDE SECTION */
 .image_section {
     width: 100%;
     display: flex;
@@ -121,27 +126,27 @@ header .title a {
     background-size: cover;
 }
 .slide01 {
-    background: url("../../images/KakaoTalk_20200424_112504930.jpg");
+    background: url("../images/demo_img1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 .slide02 {
-    background: url("../../images/KakaoTalk_20200424_112504930.jpg");
+    background: url("../images/demo_img1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 .slide03 {
-    background: url("../../images/KakaoTalk_20200424_112504930.jpg");
+    background: url("../images/demo_img1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 .slide04 {
-    background: url("../../images/KakaoTalk_20200424_112504930.jpg");
+    background: url("../images/demo_img1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 .slide05 {
-    background: url("../../images/KakaoTalk_20200424_112504930.jpg");
+    background: url("../images/demo_img1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -170,3 +175,4 @@ header .title a {
     opacity: 0.7;
     cursor: pointer;
 }
+/* IMAGE SLIDE SECTION OF END*/
